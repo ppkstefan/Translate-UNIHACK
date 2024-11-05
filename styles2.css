@@ -1,0 +1,78 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7; /* Light grey background */
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 600px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff; /* White background for container */
+}
+
+h1 {
+    text-align: center;
+    color: #4a4a4a;
+    margin-bottom: 20px; /* Spacing below title */
+}
+
+textarea {
+    width: 100%;
+    padding: 15px; /* Increased padding for a better feel */
+    margin-bottom: 15px; /* Increased margin for spacing */
+    border: 1px solid #d1d1d1; /* Soft border */
+    border-radius: 4px;
+    background-color: #fafafa; /* Light background for textarea */
+    color: #333;
+    resize: vertical;
+    font-size: 16px; /* Larger font for better readability */
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle inner shadow */
+}
+
+.language-selector {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px; /* Spacing below language selector */
+}
+
+select {
+    width: 48%; /* Adjust width for spacing */
+    padding: 12px; /* Padding for better click area */
+    border: 1px solid #d1d1d1; /* Soft border */
+    border-radius: 4px;
+    background-color: #fafafa; /* Light background for selects */
+    color: #333;
+    font-size: 16px; /* Larger font for better readability */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+span {
+    align-self: center;
+    margin: 0 10px;
+    font-size: 16px;
+    color: #4a4a4a; /* Darker color for better contrast */
+}
+
+.translation-result {
+    margin-top: 20px; /* Spacing above translation result */
+    padding: 15px; /* Increased padding */
+    border: 1px solid #d1d1d1; /* Soft border */
+    border-radius: 4px;
+    background-color: #f9f9f9; /* Slightly darker background for result */
+    line-height: 1.5; /* Better line height for readability */
+    min-height: 50px; /* Minimum height for result area */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.translation-result strong {
+    color: #c95c24; /* Highlight translation label */
+}
